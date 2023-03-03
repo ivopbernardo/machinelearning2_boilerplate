@@ -1,5 +1,6 @@
-def ola_mundo(nome):
-    saudacao = 'Olá a todos! Sou a/o {} e já sou capaz de não fazer notebooks v_finalissima'.format(nome)
-    return saudacao
+def hello(name: str) -> str:
+    """Returns a greeting using someone's name"""
+    greeting = f"Olá a todos! Sou a/o {name} e já sou capaz de não fazer notebooks v_final_final_final"
+    return greeting
 
-print(ola_mundo('Ivo'))
+print(hello("Ivo"))
